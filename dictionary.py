@@ -9,6 +9,16 @@ myDrinksDictionary={
 #need to add this dictionary to txt outputFile
 
 #adding new drink data
-myDrinksDictionary["Name1"]=1
+#myDrinksDictionary["Name1"]=1
+drink="Monster"
+print(myDrinksDictionary[drink])
 
-print(myDrinksDictionary)
+
+#for key in myDrinksDictionary.keys():
+    #value=myDrinksDictionary[key]
+    #if drink==key
+    #    print(drink, "blah")
+#def returnYen():
+#    return "Y"
+#print(returnYen(), end=" ")
+#print(5)
