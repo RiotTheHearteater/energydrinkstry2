@@ -9,8 +9,6 @@ for drink in DrinksList:
     outputFile.write (drink + "\n")
 outputFile.close()
 
-def drink(inDrinksList):
-    return drink
-
-
-print(drink("Monster"))
+inputFile=open("DrinksList.txt","r")
+print(inputFile.readline().key("Monster"))
+inputFile.close()
